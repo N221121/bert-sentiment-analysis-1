@@ -3,7 +3,7 @@ import streamlit as st
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
-MODEL_PATH = "./bert_sentiment_final"
+MODEL_PATH = "smartchatbot/bert_sentiment_final"
 
 st.set_page_config(
     page_title="BERT Sentiment Analyzer",
